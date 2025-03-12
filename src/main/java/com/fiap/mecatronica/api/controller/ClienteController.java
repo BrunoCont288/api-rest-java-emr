@@ -51,3 +51,4 @@ public class ClienteController {
         }
         return ResponseEntity.status(HttpStatus.OK).body("Cliente excluído com sucesso!");
     }
+}

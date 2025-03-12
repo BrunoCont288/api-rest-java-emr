@@ -1,6 +1,7 @@
 package com.fiap.mecatronica.api.service;
 
 import com.fiap.mecatronica.api.model.Dispositivo;
+import com.fiap.mecatronica.api.repository.DispositivoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Service;
